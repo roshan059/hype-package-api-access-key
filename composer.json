@@ -3,9 +3,11 @@
     "description": "Authorize requests to hypesewa service with API keys",
     "keywords": ["api", "api key", "authentication", "authorization", "lumen"],
     "type": "library",
+    "version": "1.0.0",
     "require": {
-        "php": ">=5.5.9",
-        "illuminate/support": ">=5.4"
+        "php": ">=8.0.0",
+        "illuminate/support": ">=5.4",
+        "hypesewa/hype-vender-publish": "^1.0"
     },
     "license": "MIT",
     "autoload": {
